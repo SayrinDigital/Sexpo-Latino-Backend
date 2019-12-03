@@ -20,9 +20,6 @@
     "subtitulo": {
       "type": "string"
     },
-    "slug": {
-      "type": "string"
-    },
     "imagen": {
       "model": "file",
       "via": "related",

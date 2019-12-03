@@ -27,9 +27,6 @@
     },
     "precio": {
       "type": "integer"
-    },
-    "slug": {
-      "type": "string"
     }
   }
 }

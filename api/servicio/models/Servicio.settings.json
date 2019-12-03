@@ -25,12 +25,14 @@
       "type": "group",
       "repeatable": true
     },
+    "portada": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
     "secategoria": {
       "model": "secategoria",
       "via": "servicios"
-    },
-    "slug": {
-      "type": "string"
     }
   }
 }
