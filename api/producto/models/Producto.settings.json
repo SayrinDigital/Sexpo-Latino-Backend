@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "producto",
+  "info": {
+    "name": "producto",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "nombre": {
+      "required": true,
+      "type": "string",
+      "unique": true
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "precio": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "servicio",
+  "info": {
+    "name": "servicio",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "nombre": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    },
+    "fotografias": {
+      "group": "fotografias",
+      "type": "group",
+      "repeatable": true
+    },
+    "secategoria": {
+      "model": "secategoria",
+      "via": "servicios"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

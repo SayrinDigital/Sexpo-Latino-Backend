@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "secategoria",
+  "info": {
+    "name": "secategoria",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "servicios": {
+      "collection": "servicio",
+      "via": "secategoria"
+    }
+  }
+}

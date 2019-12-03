@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "fotografias",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_fotografias",
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
