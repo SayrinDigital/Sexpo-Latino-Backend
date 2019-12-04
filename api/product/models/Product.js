@@ -1,6 +1,7 @@
 'use strict';
+
 /**
- * Lifecycle callbacks for the `Producto` model.
+ * Lifecycle callbacks for the `Product` model.
  */
 
 module.exports = {

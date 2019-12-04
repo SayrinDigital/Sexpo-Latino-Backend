@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/productos",
-      "handler": "Producto.find",
+      "path": "/cupons",
+      "handler": "Cupon.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/productos/count",
-      "handler": "Producto.count",
+      "path": "/cupons/count",
+      "handler": "Cupon.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/productos/:id",
-      "handler": "Producto.findOne",
+      "path": "/cupons/:id",
+      "handler": "Cupon.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/productos",
-      "handler": "Producto.create",
+      "path": "/cupons",
+      "handler": "Cupon.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/productos/:id",
-      "handler": "Producto.update",
+      "path": "/cupons/:id",
+      "handler": "Cupon.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/productos/:id",
-      "handler": "Producto.delete",
+      "path": "/cupons/:id",
+      "handler": "Cupon.delete",
       "config": {
         "policies": []
       }

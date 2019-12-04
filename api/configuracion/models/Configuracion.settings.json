@@ -1,8 +1,8 @@
 {
   "connection": "default",
-  "collectionName": "producto",
+  "collectionName": "configuracion",
   "info": {
-    "name": "producto",
+    "name": "configuracion",
     "description": ""
   },
   "options": {
@@ -12,21 +12,19 @@
     ]
   },
   "attributes": {
-    "nombre": {
-      "required": true,
-      "type": "string",
-      "unique": true
+    "quienes_somos": {
+      "type": "richtext"
     },
-    "descripcion": {
-      "type": "text"
+    "aviso_legal": {
+      "type": "richtext"
     },
-    "cover": {
+    "banner_tienda": {
       "model": "file",
       "via": "related",
       "plugin": "upload"
     },
-    "precio": {
-      "type": "integer"
+    "instagram": {
+      "type": "string"
     }
   }
 }

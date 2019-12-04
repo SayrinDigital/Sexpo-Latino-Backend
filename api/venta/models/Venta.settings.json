@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "venta",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "articulos": {
+      "type": "text"
+    },
+    "estado": {
+      "enum": [
+        "generada",
+        "aceptada",
+        "rechazada"
+      ],
+      "type": "enumeration"
+    }
+  }
+}

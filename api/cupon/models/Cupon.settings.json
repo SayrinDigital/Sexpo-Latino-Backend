@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "cupon",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "codigo": {
+      "type": "string"
+    },
+    "descuento": {
+      "type": "integer"
+    }
+  }
+}
