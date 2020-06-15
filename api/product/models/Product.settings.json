@@ -30,6 +30,9 @@
       "group": "fotografias",
       "repeatable": true,
       "type": "group"
+    },
+    "descripcionVenta": {
+      "type": "richtext"
     }
   }
 }
